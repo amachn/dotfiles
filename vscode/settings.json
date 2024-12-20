@@ -1,0 +1,87 @@
+{
+    // UI styling
+    "breadcrumbs.enabled": false,
+
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.detectIndentation": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.guides.indentation": false,
+    "editor.hover.delay": 500,
+    "editor.lightbulb.enabled": "off",
+    "editor.lineNumbers": "relative",
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.padding.top": 16,
+    "editor.renderLineHighlight": "gutter",
+    "editor.snippetSuggestions": "top",
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": false,
+
+    "problems.decorations.enabled": false,
+
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.minimumContrastRatio": 1,
+    "terminal.integrated.smoothScrolling": true,
+
+    "vscode_custom_css.imports": [
+        "file://D:/dotfiles/vscode/vscode.css"
+    ],
+
+    "window.commandCenter": false,
+    "window.newWindowDimensions": "inherit",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+    "window.titleBarStyle": "custom",
+
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.iconTheme": "catppuccin-frappe", // "eq-material-theme-icons-light",
+    "workbench.layoutControl.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.tree.enableStickyScroll": false,
+
+    // files
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    // spell checking
+    "cSpell.userWords": [
+        "knitr"
+    ],
+    "cSpell.words": [
+        "Machann"
+    ],
+
+    // discord presence
+    "discord.detailsDebugging": "debugging: {file_name} - L{current_line}:{current_column}",
+    "discord.detailsEditing": "editing: {file_name} - L{current_line}:{current_column}",
+    "discord.detailsIdling": "idling",
+    "discord.largeImage": "currently editing a(n) {LANG} file :)",
+    "discord.largeImageIdling": "big idling",
+    "discord.lowerDetailsDebugging": "workspace: {workspace}/{git_branch}",
+    "discord.lowerDetailsEditing": "workspace: {workspace}/{git_branch}",
+    "discord.lowerDetailsIdling": "idling",
+    "discord.lowerDetailsNoWorkspaceFound": "no workspace?",
+    "discord.smallImage": "vscode",
+    "discord.workspaceExcludePatterns": [
+        "BU-work"
+    ],
+
+    // language-specific
+    "javascript.suggest.paths": false,
+    "lldb.suppressUpdateNotifications": true,
+    "python.createEnvironment.trigger": "off",
+    "typescript.suggest.paths": false,
+
+    // other
+    "git.ignoreMissingGitWarning": true,
+    "update.mode": "manual"
+}

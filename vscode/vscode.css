@@ -1,0 +1,155 @@
+/* font */
+.monaco-tree .monaco-tree-row .label-name, /* sidebar/explorer */
+.monaco-list .monaco-list-row .monaco-icon-label .label-name,
+.composite.title h2,
+.statusbar, /* bottom info bar */
+.label-name, /* straggling text */
+.label-description
+{
+    font-family: "JetBrains Mono" !important;
+    font-size: 12px !important;
+}
+
+.monaco-keybinding-key, /* keybinding tiles in cmd palette */
+.quick-input-list-separator, /* addl. txt in cmd palette */
+.quick-input-filter .monaco-inputbox, /* cmd palette search */
+.monaco-editor-hover, .monaco-hover, /* hover tooltips */
+.composite-bar .action-item, /* bottom panel tab labels */
+.title-actions .action-label.single-terminal-tab, /* terminal name */
+.notification-toast-container, /* notification popups */
+.extensions-list /* all text in extensions */
+{
+    font-family: "JetBrains Mono" !important;
+}
+
+/* sidebar */
+.part.sidebar {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+}
+
+.monaco-workbench .part.sidebar .title-actions .actions-container {
+    display: none !important;
+}
+
+/* sidebar explorer tab */
+.part.sidebar .pane-header[aria-label*="Explorer"] {
+    display: none !important;
+}
+
+.monaco-scrollable-element > .shadow.top {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .75) !important;
+    top: -3px !important;
+}
+
+.composite.title {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-items: center !important;
+}
+
+.composite.title h2 {
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+
+.composite.title h2::before {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 1.1rem;
+    content: "💻";
+}
+
+.monaco-list.list_id_3 .monaco-list-row.selected { /* customize selected file */
+    background-color: #4F5971 !important;
+    opacity: 1 !important;
+    border-top: 1px #727B90 solid;
+    border-bottom: 1px #727B90 solid;
+}
+
+/* other sidebar config */
+.monaco-list-row .marker-message-details-container, /* problems text */
+.monaco-inputbox .ibwrapper, /* problems input box */
+.extensions-search-container  /* extensions input box */
+{
+    font-family: "JetBrains Mono" !important;
+    font-size: 11px !important;
+}
+
+/* scrollbar(s) */
+.scrollbar.vertical .slider,
+.scrollbar.horizontal .slider {
+    position: absolute !important;
+    background: #343A51 !important;
+    border-radius: 3px;
+    &:hover {
+        background: #98A1FF !important;
+        box-shadow: 0 0 15px #6C84EED0;
+    }
+}
+
+.scrollbar.vertical .slider {
+    left: auto !important;
+    right: 5px !important;
+    width: 4px !important;
+}
+
+.scrollbar.horizontal .slider {
+    bottom: 5px !important;
+    top: auto !important;
+    height: 4px !important;
+}
+
+/* scrollbar deco */
+.decorationsOverviewRuler {
+    display: none !important; /* hide scrollbar marks */
+}
+
+/* central command palette */
+.quick-input-widget {
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    z-index: 100;
+    padding: 10px 10px 18px 10px !important;
+    background-image: linear-gradient(#3C3C50 0%, #2A2B38 100%) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
+}
+
+.quick-input-filter .monaco-inputbox {
+    border: none !important;
+    border-radius: 12px !important;
+    margin-bottom: 4px !important;
+    padding: 8px !important;
+    background-color: rgba(34, 34, 34, .40) !important;
+}
+
+.monaco-inputbox input::placeholder {
+    color: rgba(255, 255, 255, .3) !important;
+}
+
+.monaco-list-rows {
+    background: transparent !important;
+}
+
+/* deeper shadow at file top */
+.monaco-editor .scroll-decoration {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important;
+    top: -6px !important;
+}
+
+/* tooltip style */
+.monaco-editor-hover, .monaco-hover {
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, .45) !important;
+    padding: 10px !important;
+    background-image: linear-gradient(#3C3C50 0%, #2A2B38 0%) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+/* homescreen command tips */
+.watermark-box {
+    display: none !important;
+}
