@@ -1,4 +1,6 @@
 {
+    // **many of these settings don't work as intended anymore**
+    // **I've migrated to pycharm for now, so these won't be updated unless I return to vscode**
     // UI styling
     "breadcrumbs.enabled": false,
 
@@ -26,9 +28,9 @@
     "terminal.integrated.minimumContrastRatio": 1,
     "terminal.integrated.smoothScrolling": true,
 
-    "vscode_custom_css.imports": [
-        "file://D:/dotfiles/vscode/vscode.css"
-    ],
+    // "vscode_custom_css.imports": [
+    //     "file://D:/dotfiles/vscode/vscode.css"
+    // ],
 
     "window.commandCenter": false,
     "window.newWindowDimensions": "inherit",
@@ -36,10 +38,8 @@
     "window.titleBarStyle": "custom",
 
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "Catppuccin Frappé",
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.editor.showTabs": "single",
-    "workbench.iconTheme": "catppuccin-frappe", // "eq-material-theme-icons-light",
+    // "workbench.editor.showTabs": "single", // "eq-material-theme-icons-light",
     "workbench.layoutControl.enabled": false,
     "workbench.list.smoothScrolling": true,
     "workbench.sideBar.location": "right",
@@ -54,9 +54,8 @@
 
     // spell checking
     "cSpell.userWords": [
-        "knitr"
-    ],
-    "cSpell.words": [
+        "dotenv",
+        "knitr",
         "Machann"
     ],
 
@@ -83,5 +82,9 @@
 
     // other
     "git.ignoreMissingGitWarning": true,
-    "update.mode": "manual"
+    "update.mode": "manual",
+    "python.defaultInterpreterPath": "c:\\Users\\amach\\AppData\\Local\\Python\\pythoncore-3.13-64\\python.exe",
+    "python.analysis.typeCheckingMode": "basic",
+    "jupyter.askForKernelRestart": false,
+    "chat.mcp.gallery.enabled": true
 }

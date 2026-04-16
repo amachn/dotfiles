@@ -1,1 +1,1 @@
-New-Item -Path ~\AppData\Roaming\Code\User\settings.json -ItemType SymbolicLink -Value D:\dotfiles\vscode\settings.json
+New-Item -Path ~\AppData\Roaming\Code\User\settings.json -ItemType SymbolicLink -Value D:\repos\personal\dotfiles\vscode\settings.json

@@ -1,3 +1,5 @@
+/* many of these settings don't work as intended anymore */
+/* I've migrated to pycharm for now, so these won't be updated unless I return to vscode */
 /* font */
 .monaco-tree .monaco-tree-row .label-name, /* sidebar/explorer */
 .monaco-list .monaco-list-row .monaco-icon-label .label-name,
@@ -71,10 +73,13 @@
 .monaco-list-row .marker-message-details-container, /* problems text */
 .monaco-inputbox .ibwrapper, /* problems input box */
 .extensions-search-container  /* extensions input box */
-{
+/* {
     font-family: "JetBrains Mono" !important;
     font-size: 11px !important;
-}
+} */
+ {
+    
+ }
 
 /* scrollbar(s) */
 .scrollbar.vertical .slider,
