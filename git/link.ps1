@@ -1,2 +1,2 @@
-New-Item -Path ~\.gitconfig -ItemType SymbolicLink -Value D:\repos\personal\dotfiles\git\.gitconfig
-New-Item -Path ~\.gitignore -ItemType SymbolicLink -Value D:\repos\personal\dotfiles\git\.gitignore
+New-Item -ItemType SymbolicLink -Path (Join-Path $HOME '.gitconfig') -Target (Join-Path $PSScriptRoot '.gitconfig')
+New-Item -ItemType SymbolicLink -Path (Join-Path $HOME '.gitignore') -Target (Join-Path $PSScriptRoot '.gitignore')
