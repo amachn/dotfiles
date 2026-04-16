@@ -1,0 +1,6 @@
+# folders
+.idea/
+venv/
+
+# files
+desktop.ini

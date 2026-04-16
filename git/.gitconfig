@@ -1,8 +1,20 @@
-[filter "lfs"]
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
 [user]
-	email = amachann2005@gmail.com
 	name = amachn
+	email = amachann2005@gmail.com
+	signingkey = C:/Users/amach/.ssh/id_ed25519.pub
+[core]
+	autocrlf = true
+	excludesFile = C:/Users/amach/.gitignore
+	sshCommand = C:/WINDOWS/System32/OpenSSH/ssh.exe
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[log]
+	abbrevCommit = true
+[url "git@github.com:"]
+	insteadOf = "gh:"
+[url "git@github.com:amachn/"]
+	insteadOf = "amachn:"
